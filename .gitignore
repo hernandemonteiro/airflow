@@ -1,0 +1,19 @@
+# python 
+venv/
+*.pyc
+__pycache__/
+
+# apache airflow
+data/
+logs/
+pasta/
+pasta_dummy/
+
+airflow-webserver.pid
+airflow.cfg
+airflow.db
+standalone_admin_password.txt
+webserver_config.py
+
+# environment
+.env
